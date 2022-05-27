@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/moham/AndroidStudioProjects/UI/Internship/app/src/main/res/drawable/icons8_back.xml" value="0.213" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/UI/Internship/app/src/main/res/drawable/icons8_calendar.xml" value="0.213" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/UI/Internship/app/src/main/res/drawable/icons8_clipboard.xml" value="0.213" />
         <entry key="..\:/Users/moham/AndroidStudioProjects/UI/Internship/app/src/main/res/layout/activity_main.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/UI/Internship/app/src/main/res/layout/activity_on_boarding.xml" value="0.2755208333333333" />
       </map>
     </option>
   </component>
