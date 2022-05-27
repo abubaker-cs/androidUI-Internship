@@ -20,8 +20,6 @@
             android:name=".MainActivity"
             android:exported="false"
             />
-
-
         <activity
             android:name=".ActivityOnBoarding"
             android:exported="true"
