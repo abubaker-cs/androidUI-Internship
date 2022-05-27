@@ -46,7 +46,7 @@ class ActivityOnBoarding : AppCompatActivity() {
 
             } else {
 
-                //
+                // Finish & Launch MainActivity
                 finish()
                 startActivity(Intent(this, MainActivity::class.java))
 
@@ -66,11 +66,13 @@ class ActivityOnBoarding : AppCompatActivity() {
 
             //
             override fun onPageSelected(position: Int) {
+
                 when (position) {
                     0 -> current = 0
                     1 -> current = 1
                     2 -> current = 2
                 }
+
             }
 
             //

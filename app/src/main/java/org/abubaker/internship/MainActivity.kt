@@ -2,6 +2,7 @@ package org.abubaker.internship
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import org.abubaker.internship.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,9 +11,14 @@ class MainActivity : AppCompatActivity() {
     // https://dribbble.com/shots/15935719/attachments/7771223?mode=media
     // Source: https://github.com/dodyac/InternshipProtoype
 
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
     }
 
 }
