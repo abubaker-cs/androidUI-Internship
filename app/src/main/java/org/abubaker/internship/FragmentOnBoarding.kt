@@ -27,6 +27,7 @@ class FragmentOnBoarding : Fragment() {
 
         super.onViewCreated(view, savedInstanceState)
 
+        // We are using HTML Markup so we can assign different colors to individual words.
         val string =
             "<font color=#304675>Find</font> <font color=#0DAB4E>Dream <br>Internship</font> <font color=#304675>Program</font>"
 
